@@ -1,0 +1,4 @@
+Tarea Programacion Estructurada:
+	- ¿Que lenguajes se utilizan el paradigma estructurado?
+	- ¿Diferencia entre lenguajes compilado y no compilado (interpretes)?
+	  #**A MANO**#

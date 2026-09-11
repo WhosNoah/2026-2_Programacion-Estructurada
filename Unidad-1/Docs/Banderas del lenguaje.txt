@@ -1,0 +1,7 @@
+Banderas del lenguaje C a utilizar:
+	-std=c99
+	Muestra todos los errores.
+	-pedantic
+	-Wall
+	-Werror
+	-o

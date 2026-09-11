@@ -1,0 +1,61 @@
+Para resolver problemas complejos o de gran tamaño es conveniente utilizar el concepto de reduccion de problemas.
+El problema se descompone en subproblemas, y asi hasta que el problema original queda reducido a un conjunto de actividades 
+basicas.
+En lenguaje C, la solucion de un problema se expresa por medio de un programa pero la solucion de un subproblema, por medio de
+una funcion.
+
+Ventajas:
+    - Facilitan la lectura del programa al programador.
+    - Facilitan la escritura del programa.
+    - Permite el trabajo en paralelo.
+    - Permite la reutilizacion de codigo, al escribir la funcion e utilizarla cuando sea necesaria
+    - Facilita el mantenimiento de los programas.
+
+Un programa en C esta constituido por un programa principal y un conjunto de funciones.
+El programa principal consta generalmente de pocas lineas, las cuales pueden ser llamadas a las funciones.
+
+Principio SOLID:
+    Es un principio que se recomienda que se lleve acabo al momento de desarrollar sistemas o software complejos para facilitar
+    etapas del analisis e implementacion.
+
+    - Facilida que el codigo sea mas manteniente.
+    - Facilita que el Sofrware sea Extendible
+    -                               Modificable
+
+    S ingle Responsability Principle (SRP)
+    O pen-Close Principle (OCP)
+    L iskov Substitution Principle (LSP)
+    I nterface Segregation Principle (ISP)
+    D ependency Inversion Principle (DIP)
+
+    (Para programacion estructurada solamente se llevara acabo la S)
+
+Una funcion Consta de tres partes:
+    - La parte de la definicion(prototipo).
+    - La parte de la implementacion.
+    - La parte de la llamada de la funcion (la utilizacion)
+
+Una funcion no puede tener como retorno un arreglo (int[] char[], etc) por lo que se regresa un apuntador (asignado en memoria 
+dinamica)
+
+Las fnciones las vamos a manejar en archivos separados, en donde los prototipos los ponemos en los archivos de cabecera los .h 
+y las implementaciones en los .c
+
+MisFunciones.h
+#pragma once // bandera de que no se repita al incluir
+//prototipo de la funcion
+float sumar(float a, float b);
+
+MisFunciones.c
+#include "MisFunciones.h"
+// implementaciones
+float sumar(float a, float b)
+{
+    return a+b;
+}
+
+Para poder utilizarla, y para poder llamarla es poner el nombre de la funcion y llenar sus parametros.
+
+Para compliar el programa se debe de incluir todos los archivos.c
+
+gcc -Wall -Werror -pedantic -std=c99 -c MisFunciones.c programa.c

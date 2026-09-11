@@ -1,0 +1,27 @@
+					Variables
+
+Tipos de dato:
+	int	|
+	float	|
+	long	|- En un sistema de 32 bits.
+	double	|
+	char	|
+	
+Nomenclaturas de variables:
+	SnakeCase: Funciona para funciones.
+	camelCase: Variables.
+	CONSTANTES: Globales.
+	nombres_funciones: Funciones, variables.
+	
+
+= asignar
+== comparar
+
+Constantes:
+	(Se utiliza para ambitos locales)
+	const tipo_dato nombre_variable = valor:
+	#define nombre_variable valor (Literal reemplaza textual)
+	
+	Ejemplo:
+	const float PERIMETRO = 30:
+	#define PI 3.1416
