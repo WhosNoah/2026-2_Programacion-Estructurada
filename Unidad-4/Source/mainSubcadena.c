@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "subcadena.h"
+#include "Bibliotecas/subcadena.h"
 
 int main(void) {
     char texto[1000];

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "operaciones.h"
+#include "Bibliotecas/operaciones.h"
 
 int main() {
     double a, b;

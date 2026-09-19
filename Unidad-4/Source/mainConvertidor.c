@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "convertidor.h"
+#include "Bibliotecas/convertidor.h"
 
 int main(int argc, char **argv) {
 

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "triangulo.h"
+#include "Bibliotecas/triangulo.h"
 
 int main(void) {
     float a, b, c;

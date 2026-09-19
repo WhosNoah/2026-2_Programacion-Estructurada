@@ -1,4 +1,4 @@
-#include "algoritmo.h"
+#include "Bibliotecas/algoritmo.h"
 
 int main(void) {
     int num, rep, res;
