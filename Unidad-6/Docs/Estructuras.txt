@@ -1,0 +1,22 @@
+Las estructuras tambien se les conoe como registros y se utilizan para almacenar datos estructurados heterogeneos o informacion en archivos. Formalmente se define como:
+
+Una estructura es una coleccion de datos.
+
+La estructura es finita por que se puede terminar el numero de componentes y es heterogenea por que todos los elementos pueden ser de tipos de datos diferentes.
+
+Una vez declarada la estructura, podemos crear variables del tipo estructura para utilizarla.
+
+struct Alumno a1; // definir una variable de tipo Alumno
+
+// definir e inicializar en el mismo renglon la variable tipo Alumno
+struct Alumno a2 = {101. "Omar", "ISyT", "8.0", "Tijuana"};
+
+// con apuntador
+struct Alumno* a3 = &a2
+
+
+Para crear algun alias, se utiliza la instruccion typedef, nos permite crear nuevos tipos de datos equivalentes a lo ya existentes con el objetivo de crear nombres mas apropiados y mas cortos para los tipos de datos.
+
+Se puede utilizar tanto en tipos de datos simples como estructurados.
+
+En el Lenguaje C una estructura no puede contener una funcion como su campo, sin embargo una estructura puede ser un parametro para una funcion y tambien puede ser el tipo de retorno de una funcion.

@@ -1,0 +1,9 @@
+Se refiere cuando una estructura tiene como campo otra estructura, por ejemplo una estructura empleado que tiene como campos:
+ - nombre
+ - departamento
+ - sueldo
+ - domicilio (estructura direccion)
+ y otra llamada domicilio
+ - calle
+ - numero
+ - cp
